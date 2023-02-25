@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     color: white;
-    background-image: url(Assets/image/image\ 9@2x.png);
+    background-image: url(Assets/image/image\ 9.svg);
     background-size: cover;
 }
 #image {
@@ -71,8 +71,19 @@ form{
         margin-top: 10px;
     }
 
+    form input::placeholder {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        color: #FFFFFF;
+        margin: 0px 100px 0px 15px;
+
+    }
+
+
+
     form input[type="submit"] {
-        background-color: #0c70f2;
         color:#121111;
         font-size: 33px;
         font-weight: bold;
